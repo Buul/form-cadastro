@@ -1,0 +1,10 @@
+FROM node:9-alpine
+
+WORKDIR /src
+
+RUN npm i -g concurrently
+
+EXPOSE 3000
+EXPOSE 35729
+
+CMD concurrently "yarn start" "yarn watch-css"

@@ -1,0 +1,29 @@
+:local(.component) {
+  justify-content: center;
+  padding: 20px 0;
+  .field {
+    min-width: 250px;
+    width: 100%;
+  }
+
+  h1{
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .radio{
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  .radioItem{
+    margin-right: 20px;
+  }
+
+  @media (max-width: 800px)
+  {
+    .field {
+      margin-top: 10%;
+    }
+  }
+}
